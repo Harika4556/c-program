@@ -1,0 +1,10 @@
+int josephus (int n, int k)
+{
+
+int name 0;
+ if(n-1)
+ name-1;
+ else
+ name=(josephus (n 1,k)+(k-1))*%n+1; 
+ return name;
+}
